@@ -1,2 +1,17 @@
-# Parth-portfolio-website
-# Personal Portfolio Website  A responsive portfolio website showcasing my skills, projects, and learning journey.  ## Tech Stack - HTML - CSS - JavaScript  ## Features - Responsive design - About section - Projects section - Contact section
+# Personal Portfolio Website
+
+My personal portfolio website showcasing my skills, projects, and learning journey.
+
+## Live Demo
+https://parthsuthar1181-design.github.io/Parth-portfolio-website/
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Features
+- Responsive design
+- About section
+- Projects section
+- Contact section
