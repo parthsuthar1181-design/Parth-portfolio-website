@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parth Suthar | IT Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#hero" class="logo">
+      <div class="logo-mark">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <path d="M6 5h6.5a3.5 3.5 0 0 1 0 7H6V5Z" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6 12v5" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="16.5" cy="16.5" r="1.5" fill="rgba(255,255,255,0.25)"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Parth</span>
+        <span class="logo-role">IT Developer</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="btn-talk" id="openModalBtn">Let's Talk ↗</button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Available for projects
+      </div>
+
+      <h1 class="hero-title">
+        IT Developer<br>
+        <span class="hero-title-dim">&amp; <span id="typed" class="typed-word"></span></span>
+      </h1>
+
+      <p class="hero-desc">
+        Building clean, functional web experiences with a passion for frontend development.
+        Currently pursuing Diploma in IT at Ganpat University, Gujarat.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="#" class="btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Download CV
+        </a>
+        <a href="#contact" class="btn-ghost">Contact Me →</a>
+      </div>
+
+      <div class="social-links">
+        <a href="mailto:parthsuthar1181@gmail.com" title="Email" class="social-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </a>
+        <a href="https://instagram.com/parth_suthar_0875" target="_blank" rel="noopener" title="Instagram" class="social-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="tel:+919327258188" title="Call" class="social-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.79a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </a>
+        <a href="#" title="GitHub" class="social-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-badge hero-badge-cgpa">
+        <strong>9.65</strong>
+        <span>Current CGPA</span>
+      </div>
+
+      <div class="hero-image" id="heroImage">
+        <!-- Replace the div below with: <img src="your-photo.jpg" alt="Parth" style="width:100%;height:100%;object-fit:cover;"> -->
+        <div class="hero-image-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <!-- <p>Your photo here</p> -->
+           <img src="IMG-20260107-WA0033.jpg.jpeg" alt="Parth" style="width:100%;height:100%;object-fit:cover;border-radius:22px;">
+        </div>
+      </div>
+
+      <div class="hero-badge hero-badge-stack">
+        <div class="stack-dots">
+          <div class="stack-dot" style="background:#e34c26"></div>
+          <div class="stack-dot" style="background:#264de4"></div>
+          <div class="stack-dot" style="background:#777bb4"></div>
+        </div>
+        <span class="stack-label">HTML · CSS · PHP</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section-dark">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">What I do</span>
+      <h2 class="section-title">Services</h2>
+      <p class="section-sub">Building clean, scalable and responsive solutions</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal spotlight-card">
+        <div class="service-icon">⚡</div>
+        <h3>Frontend Development</h3>
+        <p>Responsive and interactive interfaces using HTML, CSS, Bootstrap for clean, reliable performance across all devices.</p>
+        <div class="service-tags">
+          <span class="stag">HTML / CSS</span>
+          <span class="stag">Bootstrap UI</span>
+        </div>
+      </div>
+      <div class="service-card reveal spotlight-card">
+        <div class="service-icon">🎨</div>
+        <h3>Web &amp; UI Design</h3>
+        <p>Clean, user-focused layouts with clear structure, smooth navigation, and strong visual hierarchy for all screens.</p>
+        <div class="service-tags">
+          <span class="stag">Responsive Design</span>
+          <span class="stag">Modern Layouts</span>
+        </div>
+      </div>
+      <div class="service-card reveal spotlight-card">
+        <div class="service-icon">🗄️</div>
+        <h3>Backend &amp; Database</h3>
+        <p>Server-side logic using PHP and MySQL for dynamic web apps, form handling and data management.</p>
+        <div class="service-tags">
+          <span class="stag">PHP Scripting</span>
+          <span class="stag">MySQL Databases</span>
+        </div>
+      </div>
+      <div class="service-card reveal spotlight-card">
+        <div class="service-icon">💻</div>
+        <h3>Programming &amp; Logic</h3>
+        <p>Strong foundation in C and C++ for problem solving, algorithms, and building efficient logic-driven programs.</p>
+        <div class="service-tags">
+          <span class="stag">C / C++</span>
+          <span class="stag">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-surface">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Who I am</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+
+    <p class="about-desc reveal">
+      I'm an IT student passionate about building clean and functional web experiences.
+      I focus on learning new technologies, writing efficient code, and developing
+      real-world projects that bridge frontend design with backend logic — all while
+      maintaining strong academic performance.
+    </p>
+
+    <p class="approach-label reveal">My Approach</p>
+    <div class="approach-grid">
+      <div class="approach-card reveal">
+        <div class="approach-num">01</div>
+        <span>Learn fundamentals deeply before moving on</span>
+      </div>
+      <div class="approach-card reveal">
+        <div class="approach-num">02</div>
+        <span>Build clean, well-structured code always</span>
+      </div>
+      <div class="approach-card reveal">
+        <div class="approach-num">03</div>
+        <span>Apply knowledge through real projects</span>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-item reveal">
+        <div class="stat-num">9.65</div>
+        <div class="stat-label">Current CGPA</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num">5th</div>
+        <div class="stat-label">Semester — Diploma IT</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num">6+</div>
+        <div class="stat-label">Technologies Learned</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section-dark">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Tech stack</span>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Technologies and tools I work with</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal spotlight-card">
+        <div class="skill-card-icon">🔧</div>
+        <h3>Core Programming</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">PHP</span>
+        </div>
+      </div>
+      <div class="skill-card reveal spotlight-card">
+        <div class="skill-card-icon">🌐</div>
+        <h3>Frontend Tech</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">Bootstrap</span>
+          <span class="skill-tag">Responsive</span>
+        </div>
+      </div>
+      <div class="skill-card reveal spotlight-card">
+        <div class="skill-card-icon">🗃️</div>
+        <h3>Database</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">SQL Queries</span>
+          <span class="skill-tag">DB Design</span>
+        </div>
+      </div>
+      <div class="skill-card reveal spotlight-card">
+        <div class="skill-card-icon">🛠️</div>
+        <h3>Tools &amp; Others</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">XAMPP</span>
+          <span class="skill-tag">GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section-surface">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Background</span>
+      <h2 class="section-title">Education</h2>
+      <p class="section-sub">My academic journey so far</p>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <span class="edu-badge">✓ Completed</span>
+        <h3>Secondary Education (10th)</h3>
+        <p>Sarvijanik Vidyalaya<br>Gujarat State Board</p>
+      </div>
+      <div class="edu-card reveal">
+        <span class="edu-badge edu-badge-active">● Currently Pursuing</span>
+        <h3>Diploma in Information Technology</h3>
+        <p>Ganpat University, Gujarat<br>5th Semester</p>
+        <div class="cgpa">9.65 <span>CGPA</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-dark">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Get in touch</span>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-sub">Interested in working together? Reach out through any channel below.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="tel:+919327258188" class="contact-card reveal spotlight-card">
+        <div class="contact-icon">📞</div>
+        <div class="contact-body">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value">+91 93272 58188</div>
+        </div>
+        <div class="contact-arrow">↗</div>
+      </a>
+
+      <a href="mailto:parthsuthar1181@gmail.com" class="contact-card reveal spotlight-card">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-body">
+          <div class="contact-label">Email</div>
+          <div class="contact-value">parthsuthar1181@gmail.com</div>
+        </div>
+        <div class="contact-arrow">↗</div>
+      </a>
+
+      <a href="https://instagram.com/parth_suthar_0875" target="_blank" rel="noopener" class="contact-card reveal spotlight-card">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <div class="contact-body">
+          <div class="contact-label">Instagram</div>
+          <div class="contact-value">@parth_suthar_0875</div>
+        </div>
+        <div class="contact-arrow">↗</div>
+      </a>
+    </div>
+
+    <div class="contact-cta-bar reveal">
+      <div class="contact-cta-left">
+        <strong>Have a project in mind?</strong>
+        <span>Drop me an email and I'll get back to you soon.</span>
+      </div>
+      <a href="mailto:parthsuthar1181@gmail.com" class="btn-primary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+        Send Email
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Parth Suthar. All rights reserved.</p>
+    <div class="foot-links">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="foot-right">
+      <div class="foot-dot"></div>
+      Made with ♥ by Parth
+    </div>
+  </footer>
+
+  <!-- ===== CONTACT MODAL ===== -->
+  <div class="modal-backdrop" id="contactModal">
+    <div class="modal" id="modalBox">
+      <button class="modal-close" id="closeModalBtn">✕</button>
+      <div class="modal-title">Get in Touch</div>
+      <p class="modal-sub">Pick your preferred way to reach me — I'm always open to connect!</p>
+
+      <div class="modal-options">
+        <a href="tel:+919327258188" class="modal-option">
+          <div class="modal-opt-icon">📞</div>
+          <div class="modal-opt-body">
+            <div class="modal-opt-label">Call me</div>
+            <div class="modal-opt-value">+91 93272 58188</div>
+          </div>
+          <span class="modal-opt-arrow">↗</span>
+        </a>
+
+        <a href="mailto:parthsuthar1181@gmail.com" class="modal-option">
+          <div class="modal-opt-icon">✉️</div>
+          <div class="modal-opt-body">
+            <div class="modal-opt-label">Email me</div>
+            <div class="modal-opt-value">parthsuthar1181@gmail.com</div>
+          </div>
+          <span class="modal-opt-arrow">↗</span>
+        </a>
+
+        <a href="https://instagram.com/parth_suthar_0875" target="_blank" rel="noopener" class="modal-option">
+          <div class="modal-opt-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <div class="modal-opt-body">
+            <div class="modal-opt-label">Instagram</div>
+            <div class="modal-opt-value">@parth_suthar_0875</div>
+          </div>
+          <span class="modal-opt-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
